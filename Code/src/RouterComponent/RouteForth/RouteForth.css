@@ -1,0 +1,22 @@
+.RouteForthTop{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+ .RouteForth {
+     width: 100%;
+     height: 40vh;
+     background-color: #34495e;
+     grid-column: 1/2;
+ }
+ .RouteForthTop .Advertisment {
+     grid-column: 2/3;
+ }
+ @media all and (max-width:992px){
+    .RouteForth {
+        grid-column: 1/3;
+        }
+    .RouteForthTop .Advertisment {
+        grid-column: 1/3;
+    }   
+}

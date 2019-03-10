@@ -1,0 +1,22 @@
+.RouteThirdTop{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+.RouteThird {
+width: 100%;
+height: 40vh;
+background-color:#f1c40f ;
+grid-column: 1/2;
+}
+.RouteThirdTop .Advertisment {
+grid-column: 2/3;
+} 
+@media all and (max-width:992px){
+    .RouteThird {
+        grid-column: 1/3;
+        }
+    .RouteThirdTop .Advertisment {
+        grid-column: 1/3;
+    }   
+}

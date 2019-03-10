@@ -1,0 +1,27 @@
+.Header {
+    background-color: #394e63;
+}
+.Header img {
+    margin: 5px 5%;
+    width: 20%;
+} 
+@media all and (max-width:992px){
+    .Header img {
+        width: 30%;
+    } 
+}
+@media all and (max-width:768px){
+    .Header img {
+        width: 35%;
+    } 
+}
+@media all and (max-width:500px){
+    .Header img {
+        width: 40%;
+    } 
+}
+@media all and (max-width:332px){
+    .Header img {
+        width: 50%;
+    } 
+}

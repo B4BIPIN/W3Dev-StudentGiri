@@ -1,0 +1,28 @@
+.Posts {
+width: 100%;
+}
+.Posts {
+    color: black;
+}
+.Posts .PostsHeader {
+    background-color: black;
+    width: 100%;
+    height: 4%;
+}
+.Posts .PostsHeader *{
+    color: white;
+}
+
+.PostsData {
+    padding: 20px 20px 0px 20px;
+    background-color: white;
+    margin-bottom:6%;
+}
+.PostsData * {
+    color: black !important;
+}
+@media all and (max-width:992px){
+    .PostsData {
+        margin: 0px;
+    }
+}

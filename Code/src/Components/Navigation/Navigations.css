@@ -1,0 +1,25 @@
+.Navigations {
+    background-color: #3f7886;
+}
+.row {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.Navigations .row div {
+    margin: 10px;
+}
+.Navigations .row div a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.Navigations .row div a:hover{
+background-color: #3a6e7a;
+color: black;
+border-bottom: 1px solid white;
+}
+@media all and (max-width:568px){
+    .Navigations .row .ShowHideFirst a{
+        display: none;
+    }
+} 

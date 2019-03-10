@@ -1,0 +1,112 @@
+.Post {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.Post .PostLeft {
+    /* padding: 20px; */
+    width: 100%;
+    height: 100%;
+    /* height: 20vh; */
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+.Post .PostLeft img {
+    width: 100%;
+    height:100% ;    
+}
+.Post .PostRight {
+    text-align: start !important;
+padding: 5%;
+margin:3% 1%;
+border-radius: 10px;
+/* background-color: rgb(228, 228, 228); */
+background-color: white;
+display: inline !important;
+}
+.Post .PostRight .PostRightDate {
+    text-align: center !important;
+}
+.Post .PostRight .PostRightDate{
+    color: gray !important;
+}
+.Post .PostRight .PostRightDate .clock{
+    color: gray !important;
+}
+.Post .PostRight a{
+    text-decoration: none;
+    color: blue !important;
+}
+.Post .PostRight a:hover{
+    color: red !important;
+}
+.Post .PostRight .screen-reader-text {
+    display: none;
+}
+.Post .PostRight .genericon {
+    display: none;
+}
+.Post .PostRight .genericon-next {
+    display: none;
+}
+
+.Post .PostRight .more-link {
+    display: none;
+}
+
+/* Media Queryies for Post */
+@media all and (max-width:1210px){
+    .Post .PostLeft {
+        /* padding: 20px; */
+        width: 100%;
+        height: 90%;
+        /* height: 20vh; */
+        /* border-radius: 10px; */
+        /* border: 1px solid lightgrey; */
+    }
+}
+
+@media all and (max-width:1064px){
+    .Post .PostLeft {
+        height: 80%;
+    }
+    .Post .PostRight p{
+        /* p h4 div */
+        font-size: 90%;
+    }
+    .Post .PostRight {
+        margin: 0px;
+        padding-top: 0px;
+    }
+    .Post .PostRight .PostRightDate{
+        /* padding-bottom: 0px !important; */
+        text-align: start !important;
+    }
+}
+@media all and (max-width:992px){
+    .Post .PostLeft {
+        height: 100%;
+    }
+}
+@media all and (max-width:684px){
+    .Post .PostLeft {
+        height: 70%;
+    }
+}
+@media all and (max-width:500px){
+    hr {
+        display: none;
+    }
+    .Post {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .Post .PostLeft {
+        height: 100%;
+    }
+    .Post .PostRight .PostRightDate{
+        /* padding-bottom: 0px !important; */
+        text-align: center !important;
+    }
+}
+

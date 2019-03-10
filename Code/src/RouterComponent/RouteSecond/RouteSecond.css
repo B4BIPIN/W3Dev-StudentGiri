@@ -1,0 +1,22 @@
+.RouteSecondTop {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+.RouteSecond {
+width: 100%;
+height: 40vh;
+grid-column: 1/2;
+background-color: #51616b ;
+} 
+.RouteSecondTop .Advertisment {
+    grid-column: 2/3;
+}
+@media all and (max-width:992px){
+    .RouteSecond {
+        grid-column: 1/3;
+        }
+    .RouteSecondTop .Advertisment {
+        grid-column: 1/3;
+    }   
+}
